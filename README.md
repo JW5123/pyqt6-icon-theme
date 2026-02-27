@@ -18,7 +18,7 @@ English | [繁體中文](doc/README.zh-TW.md)
 
 ## Installation
 
-```bash
+```py
 pip install pyqt6-icon-theme
 ```
 
