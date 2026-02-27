@@ -26,9 +26,7 @@ class TestWindow(QWidget):
 
         self.label = QLabel("custom colors + hover:")
         layout.addWidget(self.label)
-        layout.addWidget(IconButton("add.svg", size=36,
-                                    normal_color="#49ADF0",
-                                    hover_color="#F08884"))
+        layout.addWidget(IconButton("add.svg", size=36, normal_color="#49ADF0", hover_color="#F08884"))
 
         self.label = QLabel("keep original colors (for colorful svg icons):")
         layout.addWidget(self.label)
