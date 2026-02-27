@@ -8,7 +8,9 @@ authors = [
 readme = {file = "doc/pypi_description.md", "content-type" = "text/markdown"}
 requires-python = ">=3.10"
 dependencies = [
-    "pyqt6>=6.6"
+    "pyqt6>=6.6",
+    "pytest (>=9.0.2,<10.0.0)",
+    "pytest-qt (>=4.5.0,<5.0.0)"
 ]
 license = "MIT"
 
@@ -36,3 +38,8 @@ packages = [{include = "pyqt6_icon_theme"}]
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"
+
+[dependency-groups]
+dev = [
+    "pytest-cov (>=7.0.0,<8.0.0)"
+]
