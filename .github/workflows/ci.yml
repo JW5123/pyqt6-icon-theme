@@ -32,17 +32,22 @@ jobs:
       - name: Install dependencies
         run: poetry install --with dev
 
-      # syntax check
       - name: Install Ruff
         run: pip install ruff
 
       - name: Lint with Ruff
         run: ruff check pyqt6_icon_theme/
 
-      # safe check
-      - name: Install virtual display
-        run: sudo apt-get install -y libxcb-xinerama0 xvfb
+      - name: Install virtual display and OpenGL libraries
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            libxcb-xinerama0 \
+            xvfb \
+            libegl1 \
+            libgl1 \
+            libglib2.0-0 \
+            libdbus-1-3
 
-      # test
       - name: Run tests
         run: xvfb-run -a poetry run pytest tests/ -v --cov=pyqt6_icon_theme --cov-report=term-missing
