@@ -2,6 +2,13 @@
 
 English | [繁體中文](doc/README.zh-TW.md)
 
+<p>
+  <a href="https://pypi.org/project/pyqt6-icon-theme/"><img src="https://img.shields.io/pypi/v/pyqt6-icon-theme"></a>
+  <a href="https://www.python.org/"><img src="https://img.shields.io/badge/python-≥3.10-blue"></a>
+  <a href="https://pypi.org/project/pyqt6-icon-theme/"><img src="https://img.shields.io/pypi/dm/pyqt6-icon-theme"></a>
+  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg"></a>
+</p>
+
 **PyQt6 Dynamic Icon Theme Toolkit** — Support automatic light/dark theme switching for SVG icons, with customizable color effects.
 
 ## Demo
