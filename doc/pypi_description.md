@@ -1,10 +1,6 @@
 # pyqt6-icon-theme
 
-**PyQt6 Dynamic Icon Theme Toolkit** — Supports automatic light/dark theme switching, hover color effects, and PNG/JPG original color rendering.
-
-## Demo
-<img src="https://raw.githubusercontent.com/JW5123/pyqt6-icon-theme/main/doc/pyqt6_icon_theme_demo.gif" width="350">
-
+**PyQt6 Dynamic Icon Theme Toolkit** — Support automatic light/dark theme switching for SVG icons, with customizable color effects.
 
 ## Features
 
@@ -62,10 +58,6 @@ btn = IconButton("edit.svg", size=40, keep_original=True)
 btn = IconButton("delete.png", size=40)
 ```
 
-### Full Example
-
-See the `example` folder.
-
 ## Parameter Behavior Reference
 
 | Scenario | `normal_color` | `hover_color` | `keep_original` | Result |
@@ -88,3 +80,7 @@ your_project/
 ```
 
 All `.svg`, `.png`, `.jpg`, `.jpeg` files in the directory are loaded automatically.
+
+## Demo
+
+See the [Repository](https://github.com/JW5123/pyqt6-icon-theme) for details.

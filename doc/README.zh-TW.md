@@ -2,7 +2,7 @@
 
 [English](../README.md) | 繁體中文
 
-**PyQt6 動態圖示主題工具** — 支援自動亮色/暗色主題切換、hover 顏色效果，以及 PNG/JPG 原色渲染。
+**PyQt6 動態圖示主題工具** — 支援 svg 自動亮色/暗色主題切換、自訂顏色效果
 
 ## 功能展示
 <img src="pyqt6_icon_theme_demo.gif" width="350">
