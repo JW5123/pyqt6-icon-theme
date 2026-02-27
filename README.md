@@ -46,16 +46,14 @@ IconManager.set_icon_dir("icons")
 IconButton(name, size=16, normal_color=None, hover_color=None, keep_original=False)
 ```
 
-#### Examples
+### Examples
 
 ```python
 # Auto color based on theme (light = black, dark = white)
 btn = IconButton("user.svg", size=30)
 
 # Custom color + hover effect
-btn = IconButton("add.svg", size=36,
-                 normal_color="#49ADF0",
-                 hover_color="#F08884")
+btn = IconButton("add.svg", size=36, normal_color="#49ADF0", hover_color="#F08884")
 
 # Preserve SVG original colors (unaffected by theme)
 btn = IconButton("edit.svg", size=40, keep_original=True)

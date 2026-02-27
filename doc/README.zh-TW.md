@@ -43,16 +43,14 @@ IconManager.set_icon_dir("icons")
 IconButton(name, size=16, normal_color=None, hover_color=None, keep_original=False)
 ```
 
-#### 範例
+### 範例
 
 ```python
 # 跟隨主題自動變色（亮色=黑、暗色=白）
 btn = IconButton("user.svg", size=30)
 
 # 指定顏色 + hover 效果
-btn = IconButton("add.svg", size=36,
-                 normal_color="#49ADF0",
-                 hover_color="#F08884")
+btn = IconButton("add.svg", size=36, normal_color="#49ADF0", hover_color="#F08884")
 
 # 保留 SVG 原始顏色（不受主題影響）
 btn = IconButton("edit.svg", size=40, keep_original=True)
