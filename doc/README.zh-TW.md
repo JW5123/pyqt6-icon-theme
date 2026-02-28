@@ -3,10 +3,21 @@
 [English](../README.md) | 繁體中文
 
 <p>
-  <a href="https://pypi.org/project/pyqt6-icon-theme/"><img src="https://img.shields.io/pypi/v/pyqt6-icon-theme"></a>
-  <a href="https://www.python.org/"><img src="https://img.shields.io/badge/python-≥3.10-blue"></a>
-  <a href="https://pypi.org/project/pyqt6-icon-theme/"><img src="https://img.shields.io/pypi/dm/pyqt6-icon-theme"></a>
-  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg"></a>
+  <a href="https://pypi.org/project/pyqt6-icon-theme/">
+    <img src="https://img.shields.io/pypi/v/pyqt6-icon-theme">
+  </a>
+  <a href="https://www.python.org/">
+    <img src="https://img.shields.io/badge/python-≥3.10-blue">
+  </a>
+  <a href="https://codecov.io/gh/JW5123/pyqt6-icon-theme">
+    <img src="https://codecov.io/gh/JW5123/pyqt6-icon-theme/branch/main/graph/badge.svg">
+  </a>
+  <a href="https://pypi.org/project/pyqt6-icon-theme/">
+    <img src="https://img.shields.io/pypi/dm/pyqt6-icon-theme">
+  </a>
+  <a href="https://opensource.org/licenses/MIT">
+    <img src="https://img.shields.io/badge/License-MIT-yellow.svg">
+  </a>
 </p>
 
 **PyQt6 動態圖示主題工具** — 支援 svg 自動亮色/暗色主題切換、自訂顏色效果
